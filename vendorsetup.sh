@@ -16,3 +16,5 @@
 
 add_lunch_combo aosp_bonito-userdebug
 add_lunch_combo aosp_sargo-userdebug
+add_lunch_combo candy_bonito-userdebug
+add_lunch_combo candy_bonito-user

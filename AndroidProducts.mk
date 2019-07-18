@@ -17,5 +17,5 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_bonito.mk \
     $(LOCAL_DIR)/aosp_sargo.mk \
-    $(LOCAL_DIR)/lineage_bonito.mk \
-    $(LOCAL_DIR)/lineage_sargo.mk \
+    $(LOCAL_DIR)/candy_bonito.mk \
+    $(LOCAL_DIR)/candy_sargo.mk

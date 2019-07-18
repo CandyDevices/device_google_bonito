@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "CandyDevices/kernel_google_bonito",
+    "target_path": "kernel/google/bonito"
+    "revision": "c9.0"
+  },
+  {
+    "repository": "SecretIngredients/vendor_google",
+    "target_path": "vendor/google"
+    "revision": "c9.0"
+  }
+]

@@ -35,7 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += debug.stagefright.ccodec=4
 PRODUCT_PROPERTY_OVERRIDES += debug.stagefright.omx_default_rank=512
 
 # Setting vendor SPL
-VENDOR_SECURITY_PATCH = "2018-09-05"
+VENDOR_SECURITY_PATCH = "2019-07-05"
 
 # MIDI feature
 PRODUCT_COPY_FILES += \
@@ -100,3 +100,12 @@ PRODUCT_COPY_FILES += \
 # Dumpstate HAL
 PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.0-service.bonito
+
+# GAPPS inclusion
+GAPPS_VARIANT := mini
+GAPPS_FORCE_PACKAGE_OVERRIDES := true
+GAPPS_FORCE_WEBVIEW_OVERRIDES := true
+GAPPS_FORCE_DIALER_OVERRIDES := true
+GAPPS_FORCE_BROWSER_OVERRIDES := true
+
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
